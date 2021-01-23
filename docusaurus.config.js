@@ -1,13 +1,13 @@
 module.exports = {
-    title: 'Story Mapping for Jira',
+    title: 'Journey Mapping for Jira',
     tagline: 'Focus on user value & prioritize the right work',
-    url: 'https://storymapping.app',
+    url: 'https://journeymapping.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/FreeIcon.svg',
+    favicon: 'img/JM.svg',
     organizationName: 'Realigned Technologies Ltd', // Usually your GitHub org/user name.
-    projectName: 'storymapping', // Usually your repo name.
+    projectName: 'journeymapping', // Usually your repo name.
     themeConfig: {
         colorMode: {
             defaultMode: 'light',
@@ -15,10 +15,10 @@ module.exports = {
         },
         navbar: {
             style: 'dark',
-            title: 'Story Mapping for Jira',
+            title: 'Journey Mapping for Jira',
             logo: {
-                alt: 'Story Mapping for Jira Logo',
-                src: 'img/FreeIcon.svg',
+                alt: 'Journey Mapping for Jira Logo',
+                src: 'img/JM.svg',
             },
             items: [
                 {
@@ -37,8 +37,8 @@ module.exports = {
                     title: 'Other Apps',
                     items: [
                         {
-                            label: 'Journey Mapping for Jira',
-                            to: 'https://realigned.io/journeymapping',
+                            label: 'Story Mapping for Jira',
+                            to: 'https://storymapping.app',
                         },
                         {
                             label: 'Read Confirmations for Confluence',
@@ -119,7 +119,7 @@ module.exports = {
         {
             /** <script async defer data-domain="storymapping.app" src="https://plausible.io/js/plausible.js"></script> **/
             src: "https://plausible.io/js/plausible.js",
-            "data-domain": "storymapping.app",
+            "data-domain": "journeymapping.app",
             async: true,
             defer: true
         }
