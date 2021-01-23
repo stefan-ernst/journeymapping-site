@@ -1,10 +1,8 @@
 module.exports = {
   someSidebar: [
     'intro',
-    /*'freevspaid',*/
     'storyvsjourneymap',
-    {"Story Mapping Free": ['setup', 'usage', 'doc3']},
-   /* {"Story Mapping Pro": ['doc1', 'doc2', 'doc3']},*/
+    {"Journey Mapping App": ['journeymapping', 'journeymapping-example']},
     {Troubleshooting: ['troubleshooting']},
   ],
 };
