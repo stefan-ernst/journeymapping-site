@@ -99,6 +99,7 @@ h3 {
   z-index: 500;
   background: rgba(9, 30, 66, 0.54);
   transition: opacity 220ms ease 0s;
+  cursor: pointer;
 }
 
 .modal_image {
