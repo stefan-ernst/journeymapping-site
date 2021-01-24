@@ -62,6 +62,10 @@ h3 {
   font-size: 1.25rem;
 }
 
+.button {
+  font-size: 1rem;
+}
+
 .navbar__toggle {
   color: white;
 }
