@@ -7,10 +7,10 @@ title: Common Issues & Questions
 
 Configure a backlog in the top right hand corner.
 When you select a board, make sure the board filter includes
-all projects. You can also use a filter instead of a board if needed.
+all projects. You can also use a filter instead of a board if needed (which is the way to go
+if you want to select from any workflow status and not just backlog)
 
-Sometimes Jira will not return the backlog items if not all
-workflow status are mapped to the backlog column in the board.
+Remember to map all relevant status to the backlog column of your board.
 
 ### I can't find Journey Mapping App in the project sidebar
 
