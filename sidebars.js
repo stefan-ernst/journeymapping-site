@@ -3,6 +3,6 @@ module.exports = {
     'intro',
     'storyvsjourneymap',
     {"Journey Mapping App": ['journeymapping', 'journeymapping-example']},
-    {Troubleshooting: ['troubleshooting']},
+    {FAQ: ['troubleshooting']},
   ],
 };

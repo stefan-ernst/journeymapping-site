@@ -3,32 +3,28 @@ id: troubleshooting
 title: Common Issues & Questions
 ---
 
-### Release button is not visible
+### How do I include issues from multiple projects
 
-You might be using a Next-Gen project where the Release feature is not enabled.
-Please go to the Project Administration -> Features and enable Releases.
+Configure a backlog in the top right hand corner.
+When you select a board, make sure the board filter includes
+all projects. You can also use a filter instead of a board if needed.
 
-### Sprint button is not visible
+Sometimes Jira will not return the backlog items if not all
+workflow status are mapped to the backlog column in the board.
 
-In Next-Gen projects, it is possible that Sprint feature is disabled. See above for the same problem
-with the Release feature.
-If you are using a Classic Project (or using Server or Data Center), the selected board might not support
-Sprints or you do not have Manage Sprints permission.
+### I can't find Journey Mapping App in the project sidebar
 
-### I can't find Story Mapping App in the project sidebar
+You need "Edit Issues" permission in the project in order to use the journey mapping features. 
+Please check with your project administrator.
 
-Currently only Software Projects are supported. You won't find the Sidebar item in Business or Jira Service Management projects.
+### Cloud: Where do you store data?
 
-Additionally, you need "Edit Issues" permission in the project in order to use the story mapping features.
+All journey maps are saved in Jira project properties. That means none of your data is stored
+outside of your instance.
 
-### How do I change the epic issue type
+The app functionality is delivered from our EU data center (Helsinki, Finland).
 
-(This only applies to the free version)
+### On Premises: Does your app communicate outside of the instance?
 
-You can rename the epic issue type in Jira.
-
-If you do, Story Mapping app will ask you for the epic type once. In the free version, there is no
-feature to change this later. But if you absolutely need to, you can look at the Projects Entity Properties (you can install the Entity Property App to do this) - then
-change the "tech.realigned.project.stmEpicId" property to the new value.
-
-Note that a feature to use arbitrary issue types as epics will be included in the Pro version.
+No, the app is free of any tracking or analytics software.
+We also do not do in-product marketing for our paid apps.
