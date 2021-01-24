@@ -45,7 +45,7 @@ function Feature({imageUrl, title, description}) {
             {showImage && <ModalImage onClose={() => setShowImage(false)} src={imageUrl} title={title} />}
             <div className={clsx('col col--4 text--center', styles.feature)}>
                 {imgUrl && (
-                    <div className="text--center">
+                    <div className="text--center" style={{cursor:'pointer'}}>
                         <img onClick={() => setShowImage(true)} className={styles.featureImage} src={imgUrl} alt={title}/>
                     </div>
                 )}
