@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Journey Mapping for Jira',
-    tagline: 'Focus on user value & prioritize the right work',
+    tagline: 'Bring User Experience Design to Jira',
     url: 'https://journeymapping.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',

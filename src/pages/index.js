@@ -9,30 +9,29 @@ import ModalImage from "../../docs/components/ModalImage";
 
 const features = [
     {
-        title: 'Manage & Prioritize',
-        imageUrl: 'img/SME2.webp',
+        title: 'Create journey maps right within Jira',
+        imageUrl: 'img/jm/JM2.png',
         description: (
             <>
-                Story Mapping for Jira was designed from the ground up to be easily installed and
-                used to get your team up and running quickly
+                Document customer interactions with your product or service. Get a detailed understanding about their wants and needs.
             </>
         ),
     },
     {
-        title: 'Focus on what Matters',
-        imageUrl: 'img/SME1.webp',
+        title: 'Bring high level requirements into an understandable story format',
+        imageUrl: 'img/jm/JM3.png',
         description: (
             <>
-                Easily manage and plan your next sprint or release right from the story map.
+                Break down complex user journeys and make them more readable to your team
             </>
         ),
     },
     {
-        title: 'Fully integrated',
-        imageUrl: 'img/SME4.webp',
+        title: 'Manage personas alongside your user journeys',
+        imageUrl: 'img/jm/JM5.png',
         description: (
             <>
-                Create releases, sprints, add and edit issues - all without leaving the app
+                Connect your work-items to be much more customer centric
             </>
         ),
     },
@@ -63,12 +62,12 @@ function Home() {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            description="Connect customer journeys with Jira work items">
             <header className={clsx('hero hero--primary', styles.heroBanner)}>
                 <div className="container">
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
-                    <img src="/img/SME1.webp" style={{width: '40rem'}} alt="Story Mapping Hero Image"/>
+                    <img src="/img/jm/JME8.png" style={{width: '40rem'}} alt="Journey Mapping Hero Image"/>
 
                     <br/>
                     <div style={{margin: 5}}>Available on the</div>
@@ -89,7 +88,9 @@ function Home() {
                                 'button button--outline button--secondary button--lg',
                                 styles.getStarted,
                             )}
-                            to={useBaseUrl('docs/')}>
+                            to={
+                                'https://marketplace.atlassian.com/1223654'
+                            }>
                             Try free
                         </Link>
                     </div>
