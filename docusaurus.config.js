@@ -24,9 +24,15 @@ module.exports = {
                 {
                     to: 'docs/',
                     activeBasePath: 'docs',
-                    label: 'Docs',
+                    label: 'Documentation',
                     position: 'left',
                 },
+                {
+                    to: 'https://marketplace.atlassian.com/1223654',
+                    label: 'Try free',
+                    position: 'left',
+                    target: '_blank'
+                }
                 /*{to: 'blog', label: 'Blog', position: 'left'},*/
             ],
         },
@@ -57,6 +63,11 @@ module.exports = {
                 {
                     title: 'Important Links',
                     items: [
+                        {
+                            label: 'Marketplace',
+                            href: 'https://marketplace.atlassian.com/vendors/1213963/realigned-technologies-ltd',
+                            target: '_blank'
+                        },
                         {
                             label: 'Support',
                             href: 'https://realignedtechnologies.atlassian.net/servicedesk/customer/portals',
