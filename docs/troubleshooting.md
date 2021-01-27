@@ -5,7 +5,12 @@ title: Common Issues & Questions
 
 ### How do I include issues from multiple projects
 
-Configure a backlog in the top right hand corner.
+In the overview screen, you can click on the cogwheel in the top right hand corner.
+You can select the available projects for all journey maps there.
+
+OR (if you want to configure this individually for each journey map):
+
+Configure a backlog in the top right hand corner of the journey map.
 When you select a board, make sure the board filter includes
 all projects. You can also use a filter instead of a board if needed (which is the way to go
 if you want to select from any workflow status and not just backlog)
