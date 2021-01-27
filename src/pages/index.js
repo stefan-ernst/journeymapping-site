@@ -61,7 +61,7 @@ function Home() {
     const {siteConfig = {}} = context;
     return (
         <Layout
-            title={`${siteConfig.title}`}
+            title={`Overview`}
             description="Connect customer journeys with Jira work items">
             <header className={clsx('hero hero--primary', styles.heroBanner)}>
                 <div className="container">
