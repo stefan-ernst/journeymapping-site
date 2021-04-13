@@ -45,7 +45,7 @@ Let's quickly look at Michael's journey:
 
 ![Michael's Journey](/img/journey-michael.png)
 
-As you can see, these items are no actionable for your team.
+As you can see, these items are not actionable for your team.
 They also go into great detail about Michael's behaviour. Therefore, you
 may not want to represent these as Epics within your backlog.
 
