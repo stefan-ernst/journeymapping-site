@@ -29,7 +29,3 @@ outside of your instance.
 
 The app functionality is delivered from our EU data center (Helsinki, Finland).
 
-### On Premises: Does your app communicate outside of the instance?
-
-No, the app is free of any tracking or analytics software.
-We also do not do in-product marketing for our paid apps.

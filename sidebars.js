@@ -2,7 +2,8 @@ module.exports = {
   someSidebar: [
     'intro',
     'storyvsjourneymap',
-    {"Journey Mapping App": ['journeymapping', 'journeymapping-example']},
-    {FAQ: ['troubleshooting']},
+    {"Usage Guide (Cloud)": ['journeymapping', 'journeymapping-example','troubleshooting']},
+    {"Usage Guide (On Premise)": ['journeymapping-on-prem']},
+    'cloudinfo',
   ],
 };

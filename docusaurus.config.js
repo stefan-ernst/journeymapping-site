@@ -5,7 +5,7 @@ module.exports = {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/JM.svg',
+    favicon: 'img/jmIcon.svg',
     organizationName: 'Realigned Technologies Ltd', // Usually your GitHub org/user name.
     projectName: 'journeymapping', // Usually your repo name.
     themeConfig: {
@@ -18,7 +18,7 @@ module.exports = {
             title: 'Journey Mapping for Jira',
             logo: {
                 alt: 'Journey Mapping for Jira Logo',
-                src: 'img/JM.svg',
+                src: 'img/jmIcon.svg',
             },
             items: [
                 {
@@ -29,7 +29,13 @@ module.exports = {
                 },
                 {
                     to: 'https://marketplace.atlassian.com/1223654',
-                    label: 'Try free',
+                    label: 'Try Cloud',
+                    position: 'left',
+                    target: '_blank'
+                },
+                {
+                    to: 'https://marketplace.atlassian.com/1226653',
+                    label: 'Try OnPrem',
                     position: 'left',
                     target: '_blank'
                 }
@@ -47,16 +53,16 @@ module.exports = {
                             to: 'https://storymapping.app',
                         },
                         {
-                            label: 'Read Confirmations for Confluence',
-                            to: 'https://realigned.io/readconfirmations',
+                            label: 'Denkplan Portfolio Map for Jira',
+                            to: 'https://portfoliomapping.app',
                         },
                         {
                             label: 'Personal Dashboards for Confluence',
                             to: 'https://realigned.io/personaldashboards',
                         },
                         {
-                            label: 'Enhanced Sharing for Confluence',
-                            to: 'https://realigned.io/enhancedsharing',
+                            label: 'Personas for Jira',
+                            to: 'https://betterpersonas.app',
                         },
                     ],
                 },
@@ -84,7 +90,7 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Consultancy',
+                    title: 'About us',
                     items: [
                         {
                             label: "Realigned Services",
@@ -92,8 +98,8 @@ module.exports = {
                             target: '_blank'
                         },
                         {
-                            label: 'Realigned Learning',
-                            href: 'https://realigned.work',
+                            label: 'Realigned Homepage',
+                            href: 'https://realigned.io',
                             target: '_blank'
                         },
                     ],
@@ -101,7 +107,7 @@ module.exports = {
             ],
             logo: {
                 alt: 'Realigned Logo',
-                src: '/img/realigned.svg',
+                src: '/img/RealignedLogo.svg',
             },
             copyright: `Copyright © ${new Date().getFullYear()} Realigned Technologies Ltd. `,
         },

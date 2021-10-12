@@ -10,7 +10,7 @@ import ModalImage from "../../docs/components/ModalImage";
 const features = [
     {
         title: 'Create journey maps right within Jira',
-        imageUrl: 'img/jm/JM2.png',
+        imageUrl: 'img/JMOP1.png',
         description: (
             <>
                 Document customer interactions with your product or service. Get a detailed understanding about their wants and needs.
@@ -19,7 +19,7 @@ const features = [
     },
     {
         title: 'Bring high level requirements into an understandable story format',
-        imageUrl: 'img/jm/JM3.png',
+        imageUrl: 'img/JMOP2.png',
         description: (
             <>
                 Break down complex user journeys and make them more readable to your team
@@ -27,11 +27,11 @@ const features = [
         ),
     },
     {
-        title: 'Manage personas alongside your user journeys',
-        imageUrl: 'img/jm/JM5.png',
+        title: 'Rearrange with Drag & Drop',
+        imageUrl: 'img/JMOP3.png',
         description: (
             <>
-                Connect your work-items to be much more customer centric
+                Edit your Journey Map in seconds, rearrange items freely if needed
             </>
         ),
     },
@@ -67,7 +67,7 @@ function Home() {
                 <div className="container">
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
-                    <img src="/img/jm/JME8.png" style={{width: '40rem'}} alt="Journey Mapping Hero Image"/>
+                    <img src="/img/JMOP1.png" style={{width: '40rem'}} alt="Journey Mapping Hero Image"/>
 
                     <br/>
                     <div style={{margin: 5}}>Available on the</div>
@@ -91,7 +91,17 @@ function Home() {
                             to={
                                 'https://marketplace.atlassian.com/1223654'
                             }>
-                            Try free
+                            Try Cloud
+                        </Link>
+                        <Link
+                            className={clsx(
+                                'button button--outline button--secondary button--lg',
+                                styles.getStarted,
+                            )}
+                            to={
+                                'https://marketplace.atlassian.com/1226653'
+                            }>
+                            Try OnPrem
                         </Link>
                     </div>
                 </div>

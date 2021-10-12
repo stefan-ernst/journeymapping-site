@@ -29,12 +29,13 @@
   --ifm-h1-font-size: 2rem;
   --ifm-container-width: 1280px;
   --ifm-background-surface-color: #004c8a;
+  --ifm-color-emphasis-600: white;
 }
 #__docusaurus {
-  background-color: #f5f5f5 !important;
+  background-color: #f9f9f9 !important;
 }
 main {
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0.5rem 2rem 0.5rem;
 }
 
 .navbar__logo {
@@ -45,6 +46,11 @@ main {
 .hero__title {
   font-size: 2rem !important;
 }
+.navbar__title {
+  padding-left: 8px;
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
 
 .hero__subtitle {
   font-size: 1.25rem;
@@ -52,10 +58,12 @@ main {
 
 h1 {
   font-size: 1.75rem !important;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 1.5rem !important;
+  font-weight: 600;
 }
 
 h3 {
@@ -69,16 +77,23 @@ h3 {
 .navbar__toggle {
   color: white;
 }
+.navbar-sidebar__back {
+  color: white;
+}
 
 .navbar__brand:hover {
   color: var(--realigned-sky-blue);
 }
 
 .navbar--dark {
+  /*
   background-color: var(--realigned-royal-blue);
+  */
+  font-weight: 400;
+  background-color: #0472CB;
 }
 .footer--dark {
-  background-color: var(--realigned-dark-blue);
+  background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 .navbar__link:hover, .navbar__link--active {
   color: var(--realigned-sky-blue);
@@ -89,7 +104,7 @@ h3 {
 
 
 .hero--primary {
-  background: linear-gradient( 154deg, rgb(1, 51, 115) 0%, rgb(20, 132, 188) 100%);
+  background: linear-gradient(135deg, #0472CB 2.64%, #0AA1C2 102.55%, #1AB1BC 102.56%, #1AB1BB 102.57%, #6B30C4 102.58%, #2874BB 102.74%, #1C7ED9 102.74%);
 }
 
 .blanket {
@@ -123,9 +138,18 @@ h3 {
 .menu--show {
   background-color: #f5f5f5;
 }
-
+.menu {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 1rem;
+}
 .navbar-sidebar {
-  background-color: var(--realigned-dark-blue);
+
+  background-color: #0472CB;
+  font-size: 14px;
+}
+.navbar-sidebar__close {
+  color: white;
 }
 
 .navbar-sidebar__items .menu__link {
@@ -169,4 +193,11 @@ h3 {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+body {
+  font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
 }
