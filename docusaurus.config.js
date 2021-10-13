@@ -135,7 +135,7 @@ module.exports = {
     scripts: [
         {
             /** <script async defer data-domain="storymapping.app" src="https://plausible.io/js/plausible.js"></script> **/
-            src: "https://plausible.io/js/plausible.js",
+            src: "https://dev8000.realigned.tech/js/plausible.js",
             "data-domain": "journeymapping.app",
             async: true,
             defer: true
