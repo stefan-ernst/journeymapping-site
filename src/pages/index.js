@@ -93,16 +93,6 @@ function Home() {
                             }>
                             Try Cloud
                         </Link>
-                        <Link
-                            className={clsx(
-                                'button button--outline button--secondary button--lg',
-                                styles.getStarted,
-                            )}
-                            to={
-                                'https://marketplace.atlassian.com/1226653'
-                            }>
-                            Try OnPrem
-                        </Link>
                     </div>
                 </div>
             </header>
